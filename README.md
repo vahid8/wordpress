@@ -13,3 +13,6 @@ WORDPRESS_DB_NAME=wordpress
 ### step 2
 chnage website name in nginx and docker compose (certbot part)
 
+### step 3 check if certificate is mounted:
+
+sudo docker compose exec webserver ls -la /etc/letsencrypt/live
